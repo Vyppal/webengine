@@ -1,0 +1,18 @@
+[alias]
+b = "build"
+r = "run"
+c = "clean"
+t = "test"
+
+br = "build --release"
+rr = "run --release"
+tr = "run --release"
+
+bv = "build --verbose"
+rv = "run --verbose"
+tv = "test --verbose"
+
+[profile.release]
+lto = true
+strip = "debuginfo"
+

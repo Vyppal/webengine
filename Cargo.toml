@@ -1,0 +1,7 @@
+[workspace]
+members = [
+  "webengine"
+]
+
+resolver = "2"
+
